@@ -102,7 +102,7 @@ $(document).ready(function(){
 
 	$('.new').click(function(e){
 		e.preventDefault()
-		var randomNumber = Math.floor(Math.random()*100) +1;
+		randomNumber = Math.floor(Math.random()*100) +1;
 		console.log(randomNumber);
 		$('#count').text(0);
 		$('#guessList').find('li').remove();
